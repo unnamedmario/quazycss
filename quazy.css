@@ -1,0 +1,18 @@
+/* quazyCSS by unnamedmario
+  use if you want to */
+/* fonts (qf) */
+.qf-arial{font-family:Arial, Helvetica, sans-serif}
+.qf-times{font-family:'Times New Roman', Times, serif}
+.qf-georgia{font-family:Georgia, 'Times New Roman', Times, serif}
+
+/* text-styling (qt, qth) */
+.qt-center{text-align:center}
+.qt-bold,.qth-bold:hover{font-weight:bolder;}.qt-italic,.qth-italic:hover{font-style:italic}
+.qt-underline,.qth-underline:hover{text-decoration:underline}
+.qt-overline{text-decoration:overline}
+.qt-strikethru{text-decoration:line-through}
+
+/* text-colors (qt, qth) */
+.qt-red,.qth-red:hover{color:#ff0000}.qt-dred,.qth-dred:hover{color:#8e0d0d}.qt-lred,.qth-lred:hover{color:#f05656}
+.qt-green,.qth-green:hover{color:#00ff00}.qt-dgreen,.qth-dgreen:hover{color:#0f8c0f}.qt-lgreen,.qth-lgreen:hover{color:#66d966}
+.qt-blue,.qth-blue:hover{color:#0000ff}.qt-dblue,.qth-dblue:hover{color:#0c0c60}.qt-lblue,.qth-lblue:hover{color:#6c9ceb}
