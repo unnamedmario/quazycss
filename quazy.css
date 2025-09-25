@@ -1,18 +1,40 @@
-/* quazyCSS by unnamedmario
-  use if you want to */
-/* fonts (qf) */
-.qf-arial{font-family:Arial, Helvetica, sans-serif}
-.qf-times{font-family:'Times New Roman', Times, serif}
-.qf-georgia{font-family:Georgia, 'Times New Roman', Times, serif}
+/* quazycss by unnamedmario
+  use if you want to credit appreciated */
 
-/* text-styling (qt, qth) */
-.qt-center{text-align:center}
-.qt-bold,.qth-bold:hover{font-weight:bolder;}.qt-italic,.qth-italic:hover{font-style:italic}
-.qt-underline,.qth-underline:hover{text-decoration:underline}
-.qt-overline{text-decoration:overline}
-.qt-strikethru{text-decoration:line-through}
+/* text */
+.qt-title {font-size: 1.35em;}
+.qt-small {font-size: 0.7em;}
+.qt-italic {font-style: italic}
+.qt-bold {font-weight: bold!important}
+.qt-underline {text-decoration: underline}
+.qt-strikethru {text-decoration: line-through}
+.qt-overlay {position: absolute}
 
-/* text-colors (qt, qth) */
-.qt-red,.qth-red:hover{color:#ff0000}.qt-dred,.qth-dred:hover{color:#8e0d0d}.qt-lred,.qth-lred:hover{color:#f05656}
-.qt-green,.qth-green:hover{color:#00ff00}.qt-dgreen,.qth-dgreen:hover{color:#0f8c0f}.qt-lgreen,.qth-lgreen:hover{color:#66d966}
-.qt-blue,.qth-blue:hover{color:#0000ff}.qt-dblue,.qth-dblue:hover{color:#0c0c60}.qt-lblue,.qth-lblue:hover{color:#6c9ceb}
+/* colors */
+.qe-transparent-black, .qeh-transparent-black:hover {background-color: #00000050!important}
+.qe-black, .qeh-black:hover {background-color :#000000!important; color: #ffffff}
+.qe-white, .qeh-white:hover {background-color :#000000!important; color: #000000}
+.qe-grey, .qeh-grey:hover, .qe-gray, .qeh-gray:hover {background-color :#8c8c8c!important; color: #ffffff}
+
+/* text colors */
+.qt-white, .qth-white:hover {color: #ffffff!important}
+.qt-grey, .qth-grey:hover, .qt-gray, .qth-gray:hover {color: #8c8c8c!important}
+.qt-dgrey, .qth-dgrey:hover, .qt-dgray, .qth-dgray:hover {color: #5b5b5b!important}
+.qt-black, .qth-hover:black {color: #000000!important}
+.qt-lred, .qth-lred:hover {color: #ff5e5e!important}
+.qt-red, .qth-red:hover {color: #ff0000!important}
+.qt-dred, .qth-dred:hover {color: #820000!important}
+.qt-lyellow, .qth-yellow:hover {color: #ffffa6!important}
+.qt-yellow, .qth-yellow:hover {color: #ffff00!important}
+.qt-dyellow, .qth-dyellow:hover {color: #797900!important}
+.qt-lgreen, .qth-lgreen:hover {color: #70ff70!important}
+.qt-green, .qth-green:hover {color:#00ff00!important}
+.qt-dgreen, .qth-dgreen:hover {color: #008a00!important}
+.qt-lcyan, .qth-lcyan:hover {color: #8fffff!important}
+.qt-cyan, .qth-cyan:hover {color: #00ffff!important}
+.qt-teal, .qth-teal:hover, qt-teal, .qth-teal:hover {color: #006565!important}
+.qt-lblue, .qth-blue:hover {color: #6161ff!important}
+.qt-blue, .qth-blue:hover {color: #0000ff!important}
+.qt-dblue, .qth-dblue:hover {color: #00007e!important}
+.qt-purple, .qth-purple:hover {color: #ff00ff!important}
+.qt-violet, .qth-violet:hover, .qt-dpurple, .qth-dpurple:hover {color: #aa00d0!important}
